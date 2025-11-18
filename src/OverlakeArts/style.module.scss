@@ -1,0 +1,29 @@
+.cardContainer {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: sticky;
+  top: 0px;
+  
+  .card {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    height: 500px; // Decreased from 500px
+    width: 1000px;  // Decreased from 1000px
+    border-radius: 25px;
+    padding: 30px; // Decreased from 50px
+    transform-origin: top;
+    background-color: rgba(0,0,0,0.5); // Semi-transparent overlay
+    background-blend-mode: overlay;
+    
+    .title {
+      text-align: center;
+      margin: auto; // Centers vertically
+      font-size: 28px;
+      color: white;
+      text-shadow: 1px 1px 3px rgba(0,0,0,0.8);
+    }
+  }
+}

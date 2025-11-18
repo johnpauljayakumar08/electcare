@@ -1,0 +1,42 @@
+.timeline {
+  position: relative;
+  margin: 20px 0;
+}
+
+.timeline-card {
+  position: relative;
+  margin: 20px 0;
+  padding: 20px;
+  background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.timeline-circle {
+  position: absolute;
+  top: 50%;
+  left: -40px; /* circle stays on the line for large screens */
+  transform: translateY(-50%);
+  background: red;
+  color: #fff;
+  font-weight: bold;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ✅ For small devices */
+@media (max-width: 768px) {
+  .timeline-circle {
+    position: relative !important;   /* Move inside the card */
+    top: 0 !important;
+    left: 0 !important;
+    transform: none;
+    margin-bottom: 10px;
+    margin-left: auto;
+    margin-right: auto;   /* Center at top of card */
+  }
+}

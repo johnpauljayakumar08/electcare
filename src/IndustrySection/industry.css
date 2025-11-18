@@ -1,0 +1,9 @@
+.background-industry{
+    background-image: url("../assets/ChatGPT\ Image\ Nov\ 5\,\ 2025\,\ 05_20_15\ PM.png");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    z-index: 1;
+    
+}

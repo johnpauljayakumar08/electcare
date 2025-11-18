@@ -1,0 +1,134 @@
+.core-card {
+  height: 200px;
+  color: white;
+  border-radius: 4px !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  animation: bounceIn 0.8s forwards;
+}
+
+
+
+
+
+
+@keyframes bounceIn {
+  0% {
+    opacity: 0;
+    transform: translateY(50px) scale(0.8);
+  }
+  60% {
+    opacity: 1;
+    transform: translateY(-20px) scale(1.05);
+  }
+  80% {
+    transform: translateY(10px) scale(0.95);
+  }
+  100% {
+    opacity: 1;
+    transform: translateY(0) scale(1);
+  }
+}
+
+
+/* Stagger delays */
+.row > .col-12:nth-child(1) .core-card {
+  animation-delay: 0.1s;
+}
+.row > .col-12:nth-child(2) .core-card {
+  animation-delay: 0.3s;
+}
+.row > .col-12:nth-child(3) .core-card {
+  animation-delay: 0.5s;
+}
+.row + .row > .col-12:nth-child(1) .core-card {
+  animation-delay: 0.7s;
+}
+.row + .row > .col-12:nth-child(2) .core-card {
+  animation-delay: 0.9s;
+}
+
+
+
+
+
+
+.lamp-header-container {
+  position: relative;
+  background: radial-gradient(circle at center, #00e5ff33, #000);
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+
+.lamp-glow {
+  position: absolute;
+  top: 0;
+  width: 60%;
+  height: 3px;
+  background: #00e5ff;
+  box-shadow: 0 0 40px 1px #00e5ff;
+}
+
+
+.lamp-text {
+  font-size: 2.5rem;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.85);
+  text-align: center;
+  z-index: 1;
+}
+
+
+.core-title {
+  font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+  font-size: 60px;
+  font-weight: 800;
+  color: #a0a0a0;
+
+
+  padding: 40px 20px;
+  margin: 0;
+}
+.headingtxtpart{
+    font-weight: 800;
+}
+
+
+
+ /* Header Section */
+        .coreheader {
+            background: linear-gradient(135deg, #dc2626 0%, #991b1b 100%);
+            color: white;
+          
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .coreheader::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100"><circle cx="20" cy="20" r="2" fill="rgba(255,255,255,0.1)"/><circle cx="80" cy="40" r="1" fill="rgba(255,255,255,0.1)"/><circle cx="40" cy="80" r="1.5" fill="rgba(255,255,255,0.1)"/></svg>');
+            animation: float 10s ease-in-out infinite;
+        }
+
+        @keyframes float {
+            0%, 100% { transform: translateY(0px) rotate(0deg); }
+            50% { transform: translateY(-20px) rotate(180deg); }
+        }
+
+        

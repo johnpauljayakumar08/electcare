@@ -1,0 +1,178 @@
+@import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+body {
+  margin: 0;
+   /* font-family: 'Proxima Nova', sans-serif !important; */
+  font-family: 'Poppins', sans-serif !important;
+  letter-spacing: 1px !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8fafc;
+  color: #1f2937;
+}
+
+code {
+  font-family: 'DM Sans', monospace;
+}
+
+::-webkit-scrollbar {
+  display: none;
+}
+
+.bgt {
+  background-color: #f2f4f5;
+}
+
+.entirebg {
+  background-color: white; 
+}
+.curvedarea {
+  width: 300px;
+  height: 500px;
+  border-radius: 50% 0 0 50% / 50% 0 0 50%;
+  padding-left: 40px;
+}
+
+.ent {
+  background-image: url("https://img.freepik.com/premium-vector/vector-illustration-gear-wheelhitech-digital-technology-engineeringbackground_542898-815.jpg?semt=ais_hybrid&w=740&q=80");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.txtpart {
+  color: #0f172a;
+}
+
+.bgparts{
+  background-color: linear-gradient(45deg, orange , white);
+}
+.bgfooter{
+    background-color: #555555;
+}
+.bgfooterpart{
+  background-color:#f7f7f7; 
+}
+.elect1{
+    font-size: 35px;
+     background-image: linear-gradient(#f00005, #f71014);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+     color: transparent;
+     font-weight: 700;
+     margin: 8px 0px;
+}
+.borderprimaryte{
+  border-color:#f00005
+}
+.electp{
+    font-size: 28px;
+     background-image: linear-gradient(#000080, #0000f7);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+     color: transparent;
+     font-weight: 700;
+     margin: 8px 0px;
+}
+
+.textclr{
+  color: #0000f7;
+}
+.servicetext{
+    font-size: 27px;
+     background-image: linear-gradient(#D10D14, #da494d);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent; 
+     color: transparent;
+}
+
+.evolheading {
+    position: relative; 
+    display: inline-block; 
+    font-size: 48px; 
+    font-family: 'Proxima Nova', sans-serif;
+    /* color: #291571; */
+     color: #f50505;
+    font-weight: 400;
+    text-align: center;
+  }
+ 
+
+  .servicecontact{
+  /* background-image: linear-gradient(to right,#291571,#4E28D7); */
+  background-color: #fa2000;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 500;
+  border: 0;
+  box-shadow: 1px 1px 5px 1px #b7b1cd;
+  border-radius: 5px;
+  padding: 5px;
+  
+}
+
+.rectbox{
+  height: 230px;
+  border-radius: 20px;
+  width: 500px;
+  color: white;
+
+}
+
+
+.part1{
+  background-image: url("../assets/tools.png") !important;
+}
+
+button{
+  cursor: pointer !important;
+}
+
+.bgredpart{
+  background-image: linear-gradient(45deg,rgb(242, 48, 48) 90%,#f79c8e);
+  opacity: 90;
+}
+
+
+
+.bc1 {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+}
+
+
+
+.services-intro {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .services-intro h1 {
+            
+           
+            margin-bottom: 20px;
+            position: relative;
+        }
+
+        /* .services-intro h1::after {
+            content: '';
+            position: absolute;
+            bottom: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 100px;
+            height: 4px;
+            background: linear-gradient(90deg, #dc2626, #991b1b);
+            border-radius: 2px;
+        } */
+
+
+  /* .evolheading::after {
+  content: "";
+  display: block;
+  width: 100px;  
+  height: 3px;   
+  background: linear-gradient(90deg, #373535, #272727); 
+  margin: 1px auto 0; 
+  border-radius: 2px;
+} */

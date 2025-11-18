@@ -1,0 +1,92 @@
+.video-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  padding: 20px;
+  /* margin-top: 25px; */
+  justify-content: flex-start; /* left align */
+  align-items: center;
+}
+.about-container{
+  background-image: url("../assets/aerial-view-business-team.jpg");
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.sugar-container{
+  background-image: url("../assets/freepik__upload__65703.png");
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.contact-container{
+  background-image: url("../assets/closeup-businessmen-using-mobile-phone.jpg");
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.industry-container{
+  background-image: url("../assets/colleagues-safety-equipment-work.jpg");
+  background-size: cover;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+}
+.background-video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  transform: translate(-50%, -50%);
+  object-fit: cover;
+  
+}
+
+.content {
+  position: relative;
+  z-index: 2;
+  color: white;
+  text-align: left; /* default desktop center */
+  padding: 10px 15px;
+}
+
+/* Adjust for small devices */
+@media (max-width: 768px) {
+  .content {
+    text-align: left;
+    padding: 80px 5px; 
+  }
+
+  .video-container {
+    margin-top: 30px;
+    height: 40vh;
+    padding-bottom: 3px;  
+    align-items: flex-start; 
+  }
+}

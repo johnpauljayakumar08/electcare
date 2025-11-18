@@ -1,0 +1,9 @@
+.background-services{
+    background-image: url("../assets/support-customer-service.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    position: relative;
+    z-index: 1;
+    height: 100vh;
+}
